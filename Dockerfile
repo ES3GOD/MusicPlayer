@@ -4,7 +4,7 @@ RUN apt update && apt upgrade -y
 RUN apt install git curl python3-pip ffmpeg -y
 
 RUN cd /
-RUN git clone https://github.com/AsmSafone/MusicPlayer
+RUN git clone https://github.com/ES3GOD/MusicPlayer
 RUN cd MusicPlayer
 WORKDIR /MusicPlayer
 
