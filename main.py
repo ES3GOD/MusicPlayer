@@ -47,7 +47,7 @@ from pytgcalls.exceptions import NoActiveGroupCall, GroupCallNotFound
 from core.decorators import register, language, handle_error, only_admins
 
 
-REPO = """
+Bugs = """
 🤖 **Any Bugs**
 - Contact Here @Pratheek06: [Support Chat](https://t.me/SHIZUKA_VC_SUPPORT)
 - License: AGPL-3.0-or-later
@@ -55,11 +55,11 @@ REPO = """
 
 
 @app.on_message(
-    filters.command("repo", config.PREFIXES) & filters.group & ~filters.edited
+    filters.command("bugs", config.PREFIXES) & filters.group & ~filters.edited
 )
 @handle_error
 async def repo(_, message: Message):
-    await message.reply_text(REPO)
+    await message.reply_text(Bugs)
 
 
 @app.on_message(
