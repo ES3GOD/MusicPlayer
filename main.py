@@ -48,8 +48,8 @@ from core.decorators import register, language, handle_error, only_admins
 
 
 REPO = """
-🤖 **Music Player**
-- Repo: [GitHub](https://github.com/AsmSafone/MusicPlayer)
+🤖 **Any Bugs**
+- Contact Here @Pratheek06: [Support Chat](https://t.me/SHIZUKA_VC_SUPPORT)
 - License: AGPL-3.0-or-later
 """
 
